@@ -55,7 +55,7 @@ sub set_topics{
 sub get_messages{
 	# Retrive all the messages from the Message table
 	# The messages will be in a  nested form.
-	#$msgs = [$msg->{msg_id=>-,subject->'', topic_id->'', root_id->''}, 
+	#$msgs = [{msg_id=>-,subject->'', topic_id->'', root_id->''}, 
 	#          ------
 	#        ]
 
